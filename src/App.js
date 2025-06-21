@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Your Name</h1>
+        <h1>Farzana Tasnim</h1>
         <nav>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
