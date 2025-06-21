@@ -11,8 +11,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={darkMode ? 'App dark' : 'App'}>
-      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+    <div className="App">
       <header>
         <h1>Farzana Tasnim</h1>
         <nav>

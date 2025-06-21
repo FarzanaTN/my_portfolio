@@ -1,43 +1,38 @@
-// components/Projects.js
 import React from 'react';
 
 const Projects = () => (
-  <section id="projects" className="fade-in">
+  <section id="projects">
     <h2>Projects</h2>
-
     <div className="project">
       <h3>Cosmo Shooter Game</h3>
-      <p>A shooting game using SDL2 for C language.</p>
-      <a href="https://github.com/yourusername/cosmo-shooter">GitHub</a>
-      <a href="https://cosmo-shooter-demo.netlify.app">Live Demo</a>
+      <p>A shooting game using SDL2 for c language.</p>
+      <a href="https://github.com/yourusername/weather-app">GitHub</a> |
+      <a href="https://weatherapp-demo.netlify.app">Live Demo</a>
     </div>
-
+    {/* Add more projects here */}
     <div className="project">
       <h3>Hotel Management System</h3>
-      <p>A Java project using Java Swing.</p>
-      <a href="https://github.com/yourusername/hotel-management-java">GitHub</a>
-      <a href="https://hotel-management-java-demo.netlify.app">Live Demo</a>
+      <p>A java project using java swing.</p>
+      <a href="https://github.com/yourusername/weather-app">GitHub</a> |
+      <a href="https://weatherapp-demo.netlify.app">Live Demo</a>
     </div>
-
     <div className="project">
       <h3>Learnloop</h3>
-      <p>An Android project using Flutter.</p>
-      <a href="https://github.com/yourusername/learnloop">GitHub</a>
-      <a href="https://learnloop-demo.netlify.app">Live Demo</a>
+      <p>An android project using flutter.</p>
+      <a href="https://github.com/yourusername/weather-app">GitHub</a> |
+      <a href="https://weatherapp-demo.netlify.app">Live Demo</a>
     </div>
-
     <div className="project">
       <h3>Hotel Management System (DBMS)</h3>
-      <p>A database project using MySQL.</p>
-      <a href="https://github.com/yourusername/hotel-dbms">GitHub</a>
-      <a href="https://hotel-dbms-demo.netlify.app">Live Demo</a>
+      <p>A database project using mysql.</p>
+      <a href="https://github.com/yourusername/weather-app">GitHub</a> |
+      <a href="https://weatherapp-demo.netlify.app">Live Demo</a>
     </div>
-
     <div className="project">
       <h3>MedWise</h3>
-      <p>A software project using Next.js.</p>
-      <a href="https://github.com/yourusername/medwise">GitHub</a>
-      <a href="https://medwise-demo.netlify.app">Live Demo</a>
+      <p>A software project using next-js.</p>
+      <a href="https://github.com/yourusername/weather-app">GitHub</a> |
+      <a href="https://weatherapp-demo.netlify.app">Live Demo</a>
     </div>
   </section>
 );
