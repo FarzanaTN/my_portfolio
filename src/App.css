@@ -5,6 +5,16 @@ body {
   background: linear-gradient(120deg, #f4f4f4 0%, #e2e2e2 100%);
 }
 
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -2;
+  background-color: transparent;
+}
+
 body::before {
   content: '';
   position: fixed;
