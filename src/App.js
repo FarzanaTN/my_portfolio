@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Header from './components/Header';
+
 
 const particlesInit = async (main) => {
   await loadFull(main);
