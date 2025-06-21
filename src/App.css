@@ -27,7 +27,7 @@ body::before {
   background-size: 50px 50px;
   background-position: 0 0, 25px 25px;
   animation: animateBg 20s linear infinite;
-  z-index: -1;
+  z-index: -3;
 }
 
 @keyframes animateBg {
