@@ -26,7 +26,7 @@ function App() {
       </main>
 
       <footer>
-        <p>&copy; 2025 Your Name</p>
+        <p>&copy; 2025 Farzana Tasnim</p>
       </footer>
     </div>
   );

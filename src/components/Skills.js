@@ -8,6 +8,10 @@ const Skills = () => (
       <li>HTML & CSS</li>
       <li>Node.js</li>
       <li>Flutter</li>
+      <li>C/C++</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>MySql</li>
     </ul>
   </section>
 );
