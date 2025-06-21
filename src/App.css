@@ -87,12 +87,16 @@ body::before {
   z-index: -3;
 }
 
-@keyframes animateBg {
-  from { background-position: 0 0, 25px 25px; }
-  to { background-position: 50px 50px, 75px 75px; }
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
+
 header {
-  background: #1e1e2f;
+  background: linear-gradient(270deg, #1e1e2f, #007acc, #1e1e2f);
+  background-size: 600% 600%;
+  animation: gradientShift 10s ease infinite;
   color: white;
   padding: 30px 0;
   text-align: center;
