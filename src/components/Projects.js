@@ -7,7 +7,7 @@ const Projects = () => (
       <h3>Cosmo Shooter Game</h3>
       <p>A shooting game using SDL2 for c language.</p>
       <a href="https://github.com/FarzanaTN/cosmp_shooter">GitHub</a> |
-      <a href="https://www.youtube.com/watch?v=PESr5fFNJCo">Live Demo</a>
+      <a href="https://www.youtube.com/watch?v=PESr5fFNJCo">Demo</a>
     </div>
     {/* Add more projects here */}
     <div className="project">
@@ -26,13 +26,19 @@ const Projects = () => (
       <h3>Hotel Management System (DBMS)</h3>
       <p>A database project using mysql.</p>
       <a href="https://github.com/FarzanaTN/Hms_Dbms">GitHub</a> |
-      {/* <a href="https://weatherapp-demo.netlify.app">Live Demo</a> */}
+      {/* <a href="https://weatherapp-demo.netlify.app">Demo</a> */}
     </div>
     <div className="project">
       <h3>MedWise</h3>
       <p>A software project using next-js.</p>
       <a href="https://github.com/FarzanaTN/MedWise">GitHub</a> |
-      <a href="https://weatherapp-demo.netlify.app">Live Demo</a>
+      <a href="https://weatherapp-demo.netlify.app">Demo</a>
+    </div>
+    <div className="project">
+      <h3>FileFusion</h3>
+      <p>A netwokring project to convert files.</p>
+      <a href="https://github.com/FarzanaTN/FileFusion">GitHub</a> |
+      <a href="https://weatherapp-demo.netlify.app">Demo</a>
     </div>
   </section>
 );
